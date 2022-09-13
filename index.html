@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>SpaceX with TailwindCSS</title>
+</head>
+<body>
+    
+    <nav class="pr-6  py-7 fixed w-full z-10 text-white uppercase font-bold ">
+        <div class="container flex space-x-6   md:space-x-10 items-center mx-auto">
+            
+            <a href="#" class=" md:px-0 z-50 mx-auto md:mx-0 ">
+                <img src="img/logo.png" alt="Logo" class="mr-3 h-8 md:h-10 ">
+            </a>
+            
+            <div class="hidden pl-10 w-full md:flex md:w-auto md:order-1">
+                
+                <ul class="flex flex-col py-4 mt-4    md:flex-row space-x-6 md:space-x-8 md:mt-0  md:font-medium font-thin dark:bg-gray-800">   
+                        <li class="hover:text-gray-300"><a href="falcon9.html">Falcon 9</a></li>
+                        <li class="hover:text-gray-300"><a href="falcon-heavy.html">Falcon Heavy</a></li>
+                        <li class="hover:text-gray-300"><a href="dragon.html">Dragon</a></li>
+                        <li class="hover:text-gray-300"><a href="#">Starship</a></li>
+                        <li class="hover:text-gray-300"><a href="#">Human Spaceflight</a></li>
+                        <li class="hover:text-gray-300"><a href="#">Rideshare</a></li>
+                        <li class="hover:text-gray-300"><a href="#" >Starlink</a></li>
+                    </ul>
+                </div>
+    
+                <div class=" flex md:order-2  items-center md:flex-row right-10 absolute space-x-8 dark:bg-gray-800 ">
+                    <a href="#"  class="hidden md:block">shop</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8  z-50">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" id="menu-btn" class="cursor-pointer hover:text-gray-300"/>
+                    </svg> 
+                </div>
+                <div class="hidden  absolute top-0 right-0 bg-black h-screen w-80   py-28  " id="side-menu">
+                    <ul class="flex flex-col space-y-6  px-10 text-right font-semibold text-sm uppercase ">
+                        <li class="md:hidden">
+                            <li class="border-b pb-3 hover:text-gray-300"><a href="falcon9.html">Falcon 9</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300"><a href="falcon-heavy.html">Falcon Heavy</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300"><a href="dragon.html">Dragon</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300"><a href="#">Starship</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300"><a href="#">Human Spaceflight</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300"><a href="#">Rideshare</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300"><a href="#" >Starlink</a></li>
+                        </li>
+                        <li class="border-b pb-3 hover:text-gray-300 cursor-pointer"><a href="#">mission</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300 cursor-pointer"><a href="#">launches</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300 cursor-pointer"><a href="#">careers</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300 cursor-pointer"><a href="#">updates</a></li>
+                        <li class="border-b pb-3 hover:text-gray-300 cursor-pointer"><a href="#">shop</a></li>
+                    </ul>
+    
+                </div>
+            </div>
+           
+        </nav>
+
+        <section class=" h-screen w-full bg-no-repeat bg-cover" style="background-image:url('img/section-a.webp')">
+            <div class="absolute  flex flex-col text-white  bottom-52 md:left-36 left-16 ">
+                <h1 class=" text-2xl mb-3">UPCOMING LAUNCH</h1>
+                <h2 class="text-3xl md:text-5xl font-semibold mb-5 ">CRS-25 MISSION
+                </h2>
+                <button class="border border-white w-min items-start py-4 px-16 font-bold hover:bg-white hover:text-black hover:font-semibold">REWATCH<button>
+            </div>
+        </section>
+
+        <section class="  relative sm: h-screen w-full bg-no-repeat bg-cover" style="background-image:url('img/section-b.webp')">
+            <div class="absolute  flex flex-col text-white  bottom-52 md:left-36 left-16 ">
+                <h1 class=" text-2xl mb-3">RECENT LAUNCH</h1>
+                <h2 class="text-3xl md:text-5xl font-semibold mb-5 ">STARLINK MISSION</h2>
+                <button class="border border-white w-min items-start py-4 px-16 font-bold hover:bg-white hover:text-black hover:font-semibold">REWATCH<button>
+            </div>
+        </section>
+
+        <section class="  relative sm: h-screen w-full bg-no-repeat bg-cover" style="background-image:url('img/section-c.webp')">
+            <div class="absolute  flex flex-col text-white  bottom-52 md:left-36 left-16 ">
+                <h1 class=" text-2xl mb-3">RECENT MISSION</h1>
+                <h2 class="text-3xl md:text-5xl font-semibold mb-5 ">
+                    SES-22 MISSION</h2>
+                <button class="border border-white w-min items-start py-4 px-16 font-bold hover:bg-white hover:text-black hover:font-semibold">REWATCH<button>
+            </div>
+        </section>
+
+
+        <section class="  relative sm: h-screen w-full bg-no-repeat bg-cover" style="background-image:url('img/section-d.webp')">
+            <div class="absolute  flex flex-col text-white  bottom-52 md:left-36 left-16 ">
+                <h1 class=" text-2xl mb-3">RECENT LAUNCH</h1>
+                <h2 class="text-3xl md:text-5xl font-semibold mb-5 ">GLOBALSTAR FM15 MISSION</h2>
+                <button class="border border-white w-min items-start py-4 px-16 font-bold hover:bg-white hover:text-black hover:font-semibold">REWATCH<button>
+            </div>
+        </section>
+
+
+        <section class="  relative sm: h-screen w-full bg-no-repeat bg-cover" style="background-image:url('img/section-e.webp')">
+            <div class="absolute  flex flex-col text-white  bottom-52 md:left-36 left-16 ">
+                <!-- <h1 class=" text-2xl mb-3">RECENT LAUNCH</h1> -->
+                <h2 class="text-3xl md:text-5xl font-semibold mb-5 ">STARSHIP UPDATE</h2>
+                <button class="border border-white w-min items-start py-4 px-16 font-bold hover:bg-white hover:text-black hover:font-semibold">REWATCH<button>
+            </div>
+        </section>
+
+        <section class="  relative sm: h-screen w-full bg-no-repeat bg-cover" style="background-image:url('img/section-f.webp')">
+            <div class="absolute w-1/3 flex flex-col text-white  bottom-52 md:left-36 left-16 ">
+               
+                <h2 class="text-3xl md:text-5xl font-semibold mb-5 ">STARSHIP TO ADD NASA ASTRONAUTS ON THE MOON
+                </h2>
+                <button class="border border-white w-min items-start py-4 px-16 font-bold hover:bg-white hover:text-black hover:font-semibold">REWATCH<button>
+            </div>
+        </section>
+
+        <footer class="bg-black text-white  ">
+            <div>
+                <nav class="py-10">
+                    <ul class="flex justify-center  items-center flex-wrap text-xs space-x-8 font-bold uppercase"> 
+
+                        <li class="pr-3 md:px-5 font-thin text-gray-400 text-sm">
+                            <span>spaceX &copy; 2022</span></li>
+
+                        <li class="pr-3 hover:text-gray-300"><a href="#">TWITTER</a></li>
+                        <li class="pr-3 hover:text-gray-300"><a href="#">YOUTUBE</a></li>
+                        <li class="pr-3 hover:text-gray-300"><a href="#">INSTAGRAM</a></li>
+                        <li class="pr-3 hover:text-gray-300"><a href="#">FLICKR</a></li>
+                        <li class="pr-3 hover:text-gray-300"><a href="#">LINKEDIN</a></li>
+                        <li class="pr-3 hover:text-gray-300"><a href="#">PRIVACY POLICY</a></li>
+                        <li class="pr-3 hover:text-gray-300"><a href="#">SUPPLIERS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+
+
+        
+       <script src="app.js"></script> 
+
+</body>
+</html>

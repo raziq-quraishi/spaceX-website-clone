@@ -1,2 +1,2 @@
 # spaceX-website-clone
-spaceX website clone by using TailwindCSS
+ This repos was spaceX website clone by using TailwindCSS

@@ -5,7 +5,9 @@ body{
     /* use third comment in css  */
     
 }
-
+div{
+    background-color:#fff;
+}
 footer{
     display: block;
 }
